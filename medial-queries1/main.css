@@ -1,3 +1,92 @@
 body {
   background: blanchedalmond;
 }
+@media(max-width:900px){
+.container {
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.container div {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+
+}
+p{
+  text-align: center;
+}
+
+.a {
+  width: 40%;
+  height: 100px;
+  border: 2px solid rgb(23, 23, 24);
+}
+
+.b {
+  height: 200px;
+  width: 50%;
+  border: 2px solid rgb(2, 2, 2);
+ 
+}
+
+.c {
+  width:45%;
+  height: 100px;
+  border: 2px solid rgb(7, 7, 7);
+
+}
+}
+@media(min-width:1000px){
+  .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container div {
+    display: flex;
+    margin-bottom: 1em;
+  
+  }
+  p{
+    text-align: center;
+  }
+  
+  .a {
+    position: fixed;
+    right:45%;
+    top :1%;
+    width: 40em;
+    height: 100px;
+    border: 2px solid rgb(23, 23, 24);
+    
+  }
+  
+  .b {
+    position: fixed;
+    height: 200px;
+    width: 25em;
+    border: 2px solid rgb(2, 2, 2);  
+    top:10.3%;
+    right:55%;
+   
+  }
+  
+  .c {
+    position: fixed;
+    width:150px;
+    height: 10em;
+    border: 2px solid rgb(7, 7, 7);
+    right:46%;
+    top:10.3%;
+    
+  }
